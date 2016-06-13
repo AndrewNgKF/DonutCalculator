@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F77A9D01D0DA9340042A9D8 /* PWYummyDonuts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F77A9CF1D0DA9340042A9D8 /* PWYummyDonuts.ttf */; };
+		6F77A9F41D0DC1430042A9D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F77A9F31D0DC1430042A9D8 /* Images.xcassets */; };
+		6F77A9F61D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F77A9F51D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png */; };
 		6FB5C9D51D0DA7D2004D6120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5C9D41D0DA7D2004D6120 /* AppDelegate.swift */; };
 		6FB5C9D71D0DA7D2004D6120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5C9D61D0DA7D2004D6120 /* ViewController.swift */; };
 		6FB5C9DA1D0DA7D3004D6120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5C9D81D0DA7D3004D6120 /* Main.storyboard */; };
-		6FB5C9DC1D0DA7D3004D6120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5C9DB1D0DA7D3004D6120 /* Assets.xcassets */; };
 		6FB5C9DF1D0DA7D3004D6120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5C9DD1D0DA7D3004D6120 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F77A9CF1D0DA9340042A9D8 /* PWYummyDonuts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PWYummyDonuts.ttf; sourceTree = "<group>"; };
+		6F77A9F31D0DC1430042A9D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		6F77A9F51D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180 - iPhone 6 Plus.png"; sourceTree = "<group>"; };
 		6FB5C9D11D0DA7D2004D6120 /* DonutCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB5C9D41D0DA7D2004D6120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FB5C9D61D0DA7D2004D6120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FB5C9D91D0DA7D3004D6120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6FB5C9DB1D0DA7D3004D6120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FB5C9DE1D0DA7D3004D6120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FB5C9E01D0DA7D3004D6120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F77A9CE1D0DA9070042A9D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F77A9CF1D0DA9340042A9D8 /* PWYummyDonuts.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		6FB5C9C81D0DA7D2004D6120 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +66,12 @@
 		6FB5C9D31D0DA7D2004D6120 /* DonutCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				6F77A9CE1D0DA9070042A9D8 /* Resources */,
 				6FB5C9D41D0DA7D2004D6120 /* AppDelegate.swift */,
 				6FB5C9D61D0DA7D2004D6120 /* ViewController.swift */,
 				6FB5C9D81D0DA7D3004D6120 /* Main.storyboard */,
-				6FB5C9DB1D0DA7D3004D6120 /* Assets.xcassets */,
+				6F77A9F31D0DC1430042A9D8 /* Images.xcassets */,
+				6F77A9F51D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png */,
 				6FB5C9DD1D0DA7D3004D6120 /* LaunchScreen.storyboard */,
 				6FB5C9E01D0DA7D3004D6120 /* Info.plist */,
 			);
@@ -124,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB5C9DF1D0DA7D3004D6120 /* LaunchScreen.storyboard in Resources */,
-				6FB5C9DC1D0DA7D3004D6120 /* Assets.xcassets in Resources */,
+				6F77A9F41D0DC1430042A9D8 /* Images.xcassets in Resources */,
+				6F77A9F61D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png in Resources */,
+				6F77A9D01D0DA9340042A9D8 /* PWYummyDonuts.ttf in Resources */,
 				6FB5C9DA1D0DA7D3004D6120 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +303,7 @@
 				6FB5C9E51D0DA7D3004D6120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

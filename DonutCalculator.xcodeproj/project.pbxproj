@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F7146941D0EEDA7005863FA /* blop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F7146931D0EEDA7005863FA /* blop.wav */; };
+		6F7146961D0F0528005863FA /* swoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F7146951D0F0528005863FA /* swoosh.wav */; };
+		6F7146981D0F0998005863FA /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7146971D0F0998005863FA /* functions.swift */; };
 		6F77A9D01D0DA9340042A9D8 /* PWYummyDonuts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F77A9CF1D0DA9340042A9D8 /* PWYummyDonuts.ttf */; };
 		6F77A9F41D0DC1430042A9D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F77A9F31D0DC1430042A9D8 /* Images.xcassets */; };
 		6F77A9F61D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F77A9F51D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F7146931D0EEDA7005863FA /* blop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blop.wav; sourceTree = "<group>"; };
+		6F7146951D0F0528005863FA /* swoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swoosh.wav; sourceTree = "<group>"; };
+		6F7146971D0F0998005863FA /* functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		6F77A9CF1D0DA9340042A9D8 /* PWYummyDonuts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PWYummyDonuts.ttf; sourceTree = "<group>"; };
 		6F77A9F31D0DC1430042A9D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		6F77A9F51D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180 - iPhone 6 Plus.png"; sourceTree = "<group>"; };
@@ -42,6 +48,8 @@
 		6F77A9CE1D0DA9070042A9D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6F7146931D0EEDA7005863FA /* blop.wav */,
+				6F7146951D0F0528005863FA /* swoosh.wav */,
 				6F77A9CF1D0DA9340042A9D8 /* PWYummyDonuts.ttf */,
 			);
 			name = Resources;
@@ -74,6 +82,7 @@
 				6F77A9F51D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png */,
 				6FB5C9DD1D0DA7D3004D6120 /* LaunchScreen.storyboard */,
 				6FB5C9E01D0DA7D3004D6120 /* Info.plist */,
+				6F7146971D0F0998005863FA /* functions.swift */,
 			);
 			path = DonutCalculator;
 			sourceTree = "<group>";
@@ -140,6 +149,8 @@
 				6FB5C9DF1D0DA7D3004D6120 /* LaunchScreen.storyboard in Resources */,
 				6F77A9F41D0DC1430042A9D8 /* Images.xcassets in Resources */,
 				6F77A9F61D0DC3A20042A9D8 /* 180 - iPhone 6 Plus.png in Resources */,
+				6F7146961D0F0528005863FA /* swoosh.wav in Resources */,
+				6F7146941D0EEDA7005863FA /* blop.wav in Resources */,
 				6F77A9D01D0DA9340042A9D8 /* PWYummyDonuts.ttf in Resources */,
 				6FB5C9DA1D0DA7D3004D6120 /* Main.storyboard in Resources */,
 			);
@@ -154,6 +165,7 @@
 			files = (
 				6FB5C9D71D0DA7D2004D6120 /* ViewController.swift in Sources */,
 				6FB5C9D51D0DA7D2004D6120 /* AppDelegate.swift in Sources */,
+				6F7146981D0F0998005863FA /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
